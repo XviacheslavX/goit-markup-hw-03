@@ -3,8 +3,23 @@ body {
     background-color: #fff;
     color: #434455;
 }
-ul, ol {
-    list-style-type: none;
+.container {
+    max-width: 1440px;
+    padding-left: 24px;
+    padding-right: 24px;
+    margin-left: 156px;
+    margin-right: 156px;
+}
+h1, h2, h3, h4, h5, h6, p, ul, ol{
+  margin: 0;
+  padding: 0;
+  list-style: none; /* Для <ul>, щоб скинути стилі маркерів */
+  font-size: inherit; /* Успадкувати розмір шрифту для консистентності */
+  font-family: inherit; /* Успадкувати шрифт */
+}
+.section{
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 a{
     text-decoration: none;
