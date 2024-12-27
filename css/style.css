@@ -4,6 +4,7 @@ body {
     color: #434455;
 }
 .container {
+    /* 1158px 1440px*/
     max-width: 1440px;
     padding-left: 24px;
     padding-right: 24px;
@@ -70,15 +71,7 @@ a{
     text-align: center;
     color: #fff;
 }
-.button-business{
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
-    color: #fff;
-    background-color: #4d5ae5;
-    cursor: pointer;
-}
+
 .button-business:focus, .button-business:hover {
     background-color: #404BBF;
 }
@@ -137,4 +130,120 @@ a{
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #f4f4fd;
+}
+/* початок 3дз */
+/* Посилання хедер */
+.header-link .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 72px;
+}
+.nav-link{
+    display: flex;
+}
+.nav-link .logo{
+    margin-right: 76px;
+}
+.nav-link ul{
+    display: flex;
+}
+.nav-link ul li{
+    margin-right: 40px;
+}
+.nav-link ul li:last-child{
+    margin-right: 0;
+}
+/* Адрес хедер */
+.address-head{
+    display: flex;
+}
+.address-head ul{
+    display: flex;
+}
+.address-head ul li{
+    margin-left: 40px;
+}
+.address-head ul li:first-child {
+    margin-left: 0;
+}
+/* Там де кнопка */
+.business .container{
+    display: flex;
+    flex-direction: column;
+}
+.business-h{
+    display: inline;
+    align-content: center;
+}
+.button-business {
+    display: inline;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #fff;
+    background-color: #4d5ae5;
+    cursor: pointer;
+    /*  */
+    height: 56px;
+    width: 169px;
+    border-radius: 4px;
+    align-self: center;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+    margin-top: 48px;
+
+}
+/*  */
+
+.opis ul{
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+    
+}
+.opis ul li{
+    flex: 1;
+    flex-basis: calc((100% - 72px) / 4);
+
+}
+.container .base-h-tri{
+    margin-bottom: 8px;
+    margin-top: 32px;
+}
+.container .base-p {
+    margin-bottom: 32px;
+}
+/* Команда */
+.comand ul{
+    display: flex;
+    gap: 24px;
+    justify-content: space-between;
+}
+.comand ul li{
+    flex: 1;
+    text-align: center;
+    flex-basis: calc((100% - 72px) / 4);
+    max-width: 264px;
+}
+.base-h-two-van{
+    margin-bottom: 72px;
+}
+/* портфоліо */
+.portfolio ul{
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.portfolio ul li {
+    text-align: center;
+    flex-basis: calc((100% - 48px) / 3);
+    /* Ширина для 3 елементів в 1 рядку */
+    border-bottom: 1px solid #e7e9fc;
+    border-left: 1px solid #e7e9fc;
+    border-right: 1px solid #e7e9fc;
+}
+img{
+    width: 100%;
 }
