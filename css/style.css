@@ -145,7 +145,10 @@ img {
     justify-content: space-between;
     width: 1158px;
     margin: 0 auto;
-    padding: 0 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 .header-link{
     border-bottom: 1px solid #e7e9fc;
@@ -153,7 +156,6 @@ img {
 .nav-link{
     display: flex;
     align-items: center;
-    padding: 24px 0;
 }
 .nav-link .logo{
     margin-right: 76px;
