@@ -149,7 +149,6 @@ img {
 }
 .header-link{
     border-bottom: 1px solid #e7e9fc;
-    padding: 24px 0;
 }
 .nav-link{
     display: flex;
@@ -162,8 +161,12 @@ img {
 .nav-link ul{
     display: flex;
 }
+.ul-header{
+    padding: 24px 0;
+}
 .li-header{
     margin-right: 40px;
+    
 }
 .li-header:last-child{
     margin-right: 0;
