@@ -161,12 +161,9 @@ img {
 .nav-link ul{
     display: flex;
 }
-.ul-header{
-    padding: 24px 0;
-}
 .li-header{
     margin-right: 40px;
-    
+    padding: 24px 0;
 }
 .li-header:last-child{
     margin-right: 0;
