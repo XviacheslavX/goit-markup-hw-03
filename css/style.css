@@ -25,6 +25,10 @@ h1, h2, h3, h4, h5, h6, p, ul, ol{
 a{
     text-decoration: none;
 }
+img {
+    width: 100%;
+    display: block;
+}
 .address-head{
     font-style: normal
 }
@@ -139,22 +143,26 @@ a{
 .header-link .container{
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    height: 72px;
+    border-bottom: 1px solid #e7e9fc;
+    width: 1158px;
+    margin: 0 auto;
 }
 .nav-link{
     display: flex;
+    align-items: center;
+
 }
 .nav-link .logo{
     margin-right: 76px;
 }
 .nav-link ul{
     display: flex;
+    padding: 24px 0;
 }
-.nav-link ul li{
+.li-header{
     margin-right: 40px;
 }
-.nav-link ul li:last-child{
+.li-header:last-child{
     margin-right: 0;
 }
 /* Адрес хедер */
@@ -163,6 +171,7 @@ a{
 }
 .address-head ul{
     display: flex;
+    align-items: center;
 }
 .address-head ul li{
     margin-left: 40px;
