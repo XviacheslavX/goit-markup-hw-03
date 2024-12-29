@@ -143,9 +143,13 @@ img {
 .header-link .container{
     display: flex;
     justify-content: space-between;
-    border-bottom: 1px solid #e7e9fc;
     width: 1158px;
     margin: 0 auto;
+    padding: 0 15px;
+}
+.header-link{
+    border-bottom: 1px solid #e7e9fc;
+    padding: 24px 0;
 }
 .nav-link{
     display: flex;
@@ -157,7 +161,6 @@ img {
 }
 .nav-link ul{
     display: flex;
-    padding: 24px 0;
 }
 .li-header{
     margin-right: 40px;
@@ -172,13 +175,9 @@ img {
 .address-head ul{
     display: flex;
     align-items: center;
+    gap: 40px;
 }
-.address-head ul li{
-    margin-left: 40px;
-}
-.address-head ul li:first-child {
-    margin-left: 0;
-}
+
 /* Там де кнопка */
 .business .container{
     display: flex;
