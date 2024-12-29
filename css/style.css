@@ -146,6 +146,7 @@ img {
     width: 1158px;
     margin: 0 auto;
     padding: 0 15px;
+    padding: 24px 0;
 }
 .header-link{
     border-bottom: 1px solid #e7e9fc;
@@ -153,7 +154,6 @@ img {
 .nav-link{
     display: flex;
     align-items: center;
-
 }
 .nav-link .logo{
     margin-right: 76px;
@@ -163,7 +163,6 @@ img {
 }
 .li-header{
     margin-right: 40px;
-    padding: 24px 0;
 }
 .li-header:last-child{
     margin-right: 0;
